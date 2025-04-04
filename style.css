@@ -1,0 +1,208 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+button{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #005CBF;
+}
+button:active{
+    background-color: #004B8D;
+}
+button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+input[type="text"]:focus{
+    border-color: #007BFF;
+    outline: none;
+}
+input[type="text"].error{
+    border-color: red;
+}
+input[type="text"].success{
+    border-color: green;
+}
+input[type="text"].warning{
+    border-color: orange;
+}
+input[type="text"].info{
+    border-color: blue;
+}
+input[type="text"].neutral{
+    border-color: gray;
+}
+input[type="text"].disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].hidden{
+    display: none;
+}
+input[type="text"].visible{
+    display: block;
+}
+input[type="text"].active{
+    background-color: #e0f7fa;
+    border-color: #007BFF;
+}
+input[type="text"].inactive{
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+input[type="text"].loading{
+    background-color: #e0f7fa;
+    border-color: #007BFF;
+    cursor: wait;
+}
+input[type="text"].error:focus{
+    border-color: red;
+    outline: none;
+}
+input[type="text"].success:focus{
+    border-color: green;
+    outline: none;
+}
+input[type="text"].warning:focus{
+    border-color: orange;
+    outline: none;
+}
+input[type="text"].info:focus{
+    border-color: blue;
+    outline: none;
+}
+input[type="text"].neutral:focus{
+    border-color: gray;
+    outline: none;
+}
+input[type="text"].disabled:focus{
+    border-color: #ccc;
+    outline: none;
+}
+input[type="text"].hidden:focus{
+    border-color: #ccc;
+    outline: none;
+}
+input[type="text"].visible:focus{
+    border-color: #007BFF;
+    outline: none;
+}
+input[type="text"].active:focus{
+    border-color: #007BFF;
+    outline: none;
+}
+input[type="text"].inactive:focus{
+    border-color: #ccc;
+    outline: none;
+}
+
+input[type="text"].loading:focus{
+    border-color: #007BFF;
+    outline: none;
+}
+input[type="text"].error:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].success:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+input[type="text"].warning:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].info:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+input[type="text"].neutral:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+input[type="text"].hidden:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].visible:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].active:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+input[type="text"].inactive:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+input[type="text"].loading:disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].error:active{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].success:active{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].warning:active{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].info:active{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+input[type="text"].neutral:active{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
